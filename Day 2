@@ -318,6 +318,48 @@ public class switch3 {
 
         }}}
 //arithmetic
+   import java.util.Scanner;
+public class switch4 {
+        public static void main(String[] args)
+    {
+        Scanner obj=new Scanner(System.in);
+        System.out.println("Enter a number:");
+        int value1=obj.nextInt();
+        int a=60;
+        int b=20;
+        switch(value1)
+        {
+            case 1:
+                System.out.println("Add:"+(a+b));
+                break;
+             case 2:
+                System.out.println("Subtract:"+(a-b));
+                break;
+            case 3:
+                System.out.println("Multiply:"+(a*b));
+                break;
+            case 4:
+                System.out.println("Divide:"+(a/b));
+                break;
+            case 5:
+                System.out.println("Modulus:"+(a%b));
+                break;
+            case 6:
+                System.out.println("Sin:" + Math.sin((a)));
+                break;
+            case 7:
+                System.out.println("Cos:" + Math.cos((a)));
+                break; 
+            case 8:
+                System.out.println("Tan:" + Math.tan((a)));
+                break;
+                default:
+                    System.out.println("Invalid operation");
 
+            
+        }
+    obj.close();}}
+            
+            
 
 
