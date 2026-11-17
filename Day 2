@@ -17,4 +17,124 @@ It is divided into three types:
 >continue
 >break
 >return
+PRINTF=It is used for specific formats
+PRINT=It is used for print the same line
+PRINTLN=It is used for to print the statements in the next line
+we use (" ") in programming  to print the statements as it is using string
+SYNTAX:
+    IF :
+       if(condition)
+           {
+              //block of code
+            }
+CODE:
+import java.util.Scanner;
+public class ifstatement
+{
+    public static void main(String[] args)
+    {
+        Scanner obj=new Scanner(System.in);
+        System.out.println("Enter a number:");
+        int a=obj.nextInt();
+        int b=obj.nextInt();
+        if(a<=b)
+        {
+            
+        System.out.print("condition is true");
+    }
+        obj.close();
+    }
+}
+
+
+   IF-ELSE:
+    Syntax:
+      if condition
+         {
+            //block of code
+            }
+         else
+            {
+               //block of code
+            }
+CODE:
+     import java.util.Scanner;
+public class ifelsestatement
+{
+    public static void main(String[] args)
+    {
+        Scanner obj=new Scanner(System.in);
+        System.out.println("Enter a number:");
+        int a=obj.nextInt();
+        int b=obj.nextInt();
+        if(a<=b)
+        {
+            
+        System.out.print("condition is true");
+    }
+    else
+    {
+        System.out.print("condition is false");
+    }
+        obj.close();
+    }
+}
+
+
+ELSE IF LADDER:
+Syntax:
+    if condition1{
+               //block of code}
+     else if condition2{
+                     //block of code}
+      else if condition3{
+                     //block of code}
+       else if condition4{
+                     //block of code}
+        else{
+            //block of code}
+CODE:
+    import java.util.Scanner;
+public class elseifladder
+{
+    public static void main(String[] args)
+    {
+        Scanner obj=new Scanner(System.in);
+        System.out.println("Enter a number:");
+        int marks=obj.nextInt();
+
+        if(marks>=80)
+        {
+            System.out.println("Distinction");
+        }
+        else if(marks<80 && marks>=60)
+        {
+            System.out.println("First class");
+        }
+        else if(marks<60 && marks>=50)
+        {
+            System.out.println("Second class");
+        }
+        else if(marks<50 && marks>=35)
+        {
+            System.out.println("pass");
+        }
+        else
+        {
+            System.out.println("Fail");
+        }
+        obj.close();
+    }}
+NESTED IF:
+   Syntax:
+      if condition1
+       {
+          if condition2
+               {
+                     \\block of code statement 2
+               }
+               \\block of code statement 1
+       }
+
+
 
