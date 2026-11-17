@@ -135,6 +135,189 @@ NESTED IF:
                }
                \\block of code statement 1
        }
+CODE:
+import java.util.Scanner;
+public class nestedif {
+        public static void main(String[] args)
+    {
+        Scanner obj=new Scanner(System.in);
+        System.out.println("Enter a number:");
+        int value1=obj.nextInt();
+        if(value1>=20)
+        {
+            if(value1>20)
+            {
+                System.out.println("condition 2");
+            }
+            System.out.println("condition 1");
+        }
+
+    obj.close();
+}
+}
+
+SWITCH:
+   Syntax:
+   switch(condition)
+       {
+            case 1:
+                  \\statement 1;
+                   \\break;
+            case 2:
+                  \\statement 2;
+                   \\break;
+            case n:
+                  \\statement n;
+                   \\break;
+CODE:
+//weeks
+      import java.util.Scanner;
+public class switch1 {
+        public static void main(String[] args)
+    {
+        Scanner obj=new Scanner(System.in);
+        System.out.println("Enter a number:");
+        int value1=obj.nextInt();
+        switch(value1)
+        {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            case 6:
+                System.out.println("Saturday");
+                break;
+            case 7:
+                System.out.println("Sunday");
+                break;
+            default:
+                System.out.println("Invalid input");
+        }
+        obj.close();
+    }}
+//months
+ import java.util.Scanner;
+public class switch2 {
+        public static void main(String[] args)
+    {
+        Scanner obj=new Scanner(System.in);
+        System.out.println("Enter a number:");
+        int value1=obj.nextInt();
+        switch(value1)
+        {
+            case 1:
+                System.out.println("January");
+                break;
+            case 2:
+                System.out.println("February");
+                break;
+            case 3:
+                System.out.println("March");
+                break;
+            case 4:
+                System.out.println("April");
+                break;
+            case 5:
+                System.out.println("May");
+                break;
+            case 6:
+                System.out.println("June");
+                break;
+            case 7:
+                System.out.println("July");
+                break;
+                case 8:
+                System.out.println("August");
+                break;
+                case 9:
+                System.out.println("September");
+                break;
+                case 10:
+                System.out.println("october");
+                break;
+                case 11:
+                System.out.println("November");
+                break;
+                case 12:
+                System.out.println("December");
+                break;
+            default:
+                System.out.println("Invalid month");
+        }
+        obj.close();
+    }}
+//branches
+ import java.util.Scanner;
+public class switch3 {
+        public static void main(String[] args)
+    {
+        Scanner obj=new Scanner(System.in);
+        System.out.println("Enter a number:");
+        int value1=obj.nextInt();
+        switch(value1)
+        {
+            case 1:
+                System.out.println("civil");
+                break;
+             case 2:
+                System.out.println("mechanical");
+                break;
+             case 3:
+                System.out.println("electrical");
+                break;
+             case 4:
+                System.out.println("Electronics");
+                break;
+             case 5:
+                System.out.println("Computer Science");
+                break;
+             case 6:
+                System.out.println("AI/ML");
+                break;
+             case 7:
+                System.out.println("DS");
+                break;
+             case 8:
+                System.out.println("CS");
+                break;
+             case 9:
+                System.out.println("AI");
+                break;
+             case 10:
+                System.out.println("ML");
+                break;
+             case 11:
+                System.out.println("MBA");
+                break;
+             case 12:
+                System.out.println("MCA");
+                break;
+             case 13:
+                System.out.println("M-Tech");
+                break;
+             case 14:
+                System.out.println("degree");
+                break;
+             case 15:
+                System.out.println("diploma");
+                break;
+             default:
+                System.out.println("Invalid course");
+
+
+        }}}
+//arithmetic
 
 
 
