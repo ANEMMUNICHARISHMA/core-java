@@ -1,0 +1,19 @@
+CONTROL STATEMENTS
+It is divided into three types:
+   1.conditional statements
+   2.Looping statements
+   3.Jumping statements
+1.CONDITIONAL STATEMENTS:
+>if
+>ifelse
+>else if ladder
+>nested if
+>switch
+2.LOOPING STATEMENTS:
+>for
+>while
+>Dowhile
+3.JUMPING STATEMENTS:
+>continue
+>break
+>return
