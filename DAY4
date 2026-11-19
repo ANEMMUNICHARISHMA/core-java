@@ -1,0 +1,45 @@
+Inspect:Without changing string
+length()
+charAt()-reading characters with space also
+isEmpty()=like a if condition
+isBlank()=if spaces present TRue
+Extraction by index:
+     substring()-starting and ending position -sub.string(0,4)
+    indexOf()-To find position of characters in the string-str.indexOf("v")
+compare:
+  equals()=   ==
+  compareTo()= str.compareTo(str1)
+Finds:-present in the string TRUE otherwise FALSE
+1.contains()-str.contains("v")
+2.startswith()-str.startswith(("a")
+3.endswith()-str.endswith(("a")
+TRANSFORM: transforimg into new string
+      4 types:
+                1.trim()-trims or removes extra space
+                2.strip()-venu  14-output=venu 14 -means unwanted spaces and choose requires spaces
+                3.concate()-mergeing of new string with original
+                4.repeat()-str.repeat(3)
+REPLACE:
+1.replace()-a single character-replace('n','o')
+2.replaceAll()-a full world
+3.replaceFirst()-first character of word
+
+SPILTING AND JOINING METHODS:
+  1.spilt()-str.spilt()
+  2.join()-str.join("1",str1)
+
+TOCHARARRAY:
+toCharArray()
+char[] venu="ven" toCharArray();
+
+valueOf('d')
+
+MATCHES AND FORMATTED
+1.matches()-it prediction matching of strings
+2.formatted()-formatting a msg like finding write or wrong gramatically
+STRING-we cannot add the data-immutable
+STRINGBUILDER-we can add the data-mutable,there is no format
+StringBUFFER-Synchronised ,thread format-one by one
+
+
+                
